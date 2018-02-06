@@ -1,8 +1,12 @@
 import React from "react";
 
 function HeaderSearch(){
+  var HeaderSearchStyles = {
+    justifyContent: 'flex-end',
+    padding: '0 10px'
+  }
   return (
-    <div>
+    <div style={HeaderSearchStyles}>
       <p>Search</p>
     </div>
   );

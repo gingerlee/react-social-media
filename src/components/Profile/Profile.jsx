@@ -3,8 +3,11 @@ import ProfileBio from "./ProfileBio/ProfileBio";
 import ProfileUserCard from "./ProfileUserCard/ProfileUserCard";
 
 function Profile(){
+  var profileStyles = {
+    width: '30%'
+  }
   return (
-    <div>
+    <div style={profileStyles}>
       <ProfileUserCard/>
       <ProfileBio/>
     </div>

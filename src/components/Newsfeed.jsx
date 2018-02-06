@@ -22,7 +22,7 @@ var masterNewsFeed = [
 function Newsfeed(){
   return (
     <div>
-      <hr/>
+      
       {masterNewsFeed.map((news, index) =>
         <News names={news.img}
           title={news.title}

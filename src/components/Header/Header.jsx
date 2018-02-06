@@ -4,8 +4,13 @@ import HeaderSearch from "./HeaderSearch/HeaderSearch";
 import HeaderTweet from "./HeaderTweet/HeaderTweet";
 
 function Header(){
+  var HeaderStyles = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    width: '100%'
+  }
   return (
-    <div>
+    <div style={HeaderStyles}>
       <HeaderNav/>
       <HeaderSearch/>
       <HeaderTweet/>

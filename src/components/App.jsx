@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./Header/Header";
-import Profile from "./Profile/Profile";
-import Newsfeed from "./Newsfeed";
-import Friends from "./Friends";
+import Body from "./Body";
+
 
 function App(){
+  var appStyles = {
+    fontFamily: 'sans-serif'
+  }
   return (
-    <div>
+    <div style={appStyles}>
       <Header/>
-      <Profile/>
-      <Newsfeed/>
-      <Friends/>
+      <Body/>
     </div>
   );
 }

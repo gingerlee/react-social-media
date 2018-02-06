@@ -12,7 +12,7 @@ function News(props) {
 }
 
 News.propTypes = {
-  img: PropTypes.string.isRequired,
+  img: PropTypes.string,
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired
 };
